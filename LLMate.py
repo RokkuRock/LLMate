@@ -79,7 +79,7 @@ def load_history():
 
 if __name__ == "__main__":
     # Load the persona data
-    persona_file_path = "./Ruri.json"
+    persona_file_path = "./persona.json"
     persona = load_persona(persona_file_path)
 
     # Load the Mistral model
